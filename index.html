@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Custom-built exclusive websites from scratch. Every project is hand-coded with premium design and flawless performance. Transform your digital presence.">
+    <meta name="keywords" content="web development, website creation, web design, custom websites, programming, portfolio">
+    <meta name="author" content="Dev Studio">
+    <title>Dev Studio — Exclusive Websites Built From Scratch</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========== CURSOR GLOW ========== -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-icon">◆</span>
+                <span class="logo-text">Dev<span class="logo-accent">Studio</span></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#showcase" class="nav-link">Showcase</a></li>
+                <li><a href="#process" class="nav-link">Process</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="https://wa.me/5511943639094?text=Hi%21%20I%27m%20interested%20in%20an%20exclusive%20website." target="_blank" class="nav-link nav-link--cta">Chat on WhatsApp</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="hero">
+        <div class="hero-particles" id="heroParticles"></div>
+        <div class="hero-gradient"></div>
+        <div class="hero-content">
+            <div class="hero-badge animate-on-scroll">
+                <span class="badge-dot"></span>
+                Accepting new projects
+            </div>
+            <h1 class="hero-title animate-on-scroll">
+                <span class="hero-title-line">Websites that</span>
+                <span class="hero-title-line hero-title-accent">transform</span>
+                <span class="hero-title-line">businesses.</span>
+            </h1>
+            <p class="hero-subtitle animate-on-scroll">
+                Every pixel is intentional. Every line of code is written from scratch.<br>
+                We create digital experiences that elevate your brand to the level it deserves.
+            </p>
+            <div class="hero-actions animate-on-scroll">
+                <a href="https://wa.me/5511943639094?text=Hi%21%20I%27m%20interested%20in%20an%20exclusive%20website." target="_blank" class="btn btn-primary">
+                    <span>Chat on WhatsApp</span>
+                    <i data-lucide="message-circle"></i>
+                </a>
+                <a href="#showcase" class="btn btn-secondary">
+                    <span>View Showcase</span>
+                    <i data-lucide="eye"></i>
+                </a>
+            </div>
+            <div class="hero-stats animate-on-scroll">
+                <div class="hero-stat">
+                    <span class="hero-stat-number" data-count="50">0</span><span class="hero-stat-plus">+</span>
+                    <span class="hero-stat-label">Projects Delivered</span>
+                </div>
+                <div class="hero-stat-divider"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number" data-count="100">0</span><span class="hero-stat-plus">%</span>
+                    <span class="hero-stat-label">Original Code</span>
+                </div>
+                <div class="hero-stat-divider"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number" data-count="5">0</span><span class="hero-stat-plus">★</span>
+                    <span class="hero-stat-label">Average Rating</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-label animate-on-scroll">About Us</span>
+                    <h2 class="section-title animate-on-scroll">
+                        We don't use templates.<br>
+                        <span class="text-accent">We build from scratch.</span>
+                    </h2>
+                    <p class="about-text animate-on-scroll">
+                        While most agencies just fit your business into generic templates,
+                        we believe every brand deserves something unique. <strong>Every website we build
+                        is coded line by line</strong>, from scratch, ensuring there's nothing else like it
+                        on the internet.
+                    </p>
+                    <p class="about-text animate-on-scroll">
+                        Our process combines <strong>high-end design</strong> with
+                        <strong>flawless software engineering</strong>. The result? Websites that don't just
+                        impress visually, but perform with unmatched speed, security, and fluidity.
+                    </p>
+                    <div class="about-features animate-on-scroll">
+                        <div class="about-feature">
+                            <div class="feature-icon"><i data-lucide="code-2"></i></div>
+                            <div>
+                                <h4>Handcrafted Code</h4>
+                                <p>Zero templates. 100% custom-coded for your business.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon"><i data-lucide="zap"></i></div>
+                            <div>
+                                <h4>Extreme Performance</h4>
+                                <p>Ultra-fast websites that load in under 2 seconds.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon"><i data-lucide="shield-check"></i></div>
+                            <div>
+                                <h4>Total Security</h4>
+                                <p>Clean code protected against the most common vulnerabilities.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual animate-on-scroll">
+                    <div class="about-image-wrapper">
+                        <img src="assets/hero-bg.png" alt="Premium web development showcase" loading="lazy">
+                        <div class="about-image-overlay"></div>
+                        <div class="about-floating-card about-floating-card--1">
+                            <i data-lucide="check-circle-2"></i>
+                            <span>100% Responsive</span>
+                        </div>
+                        <div class="about-floating-card about-floating-card--2">
+                            <i data-lucide="gauge"></i>
+                            <span>PageSpeed Score 100</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES ========== -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label animate-on-scroll">Services</span>
+                <h2 class="section-title animate-on-scroll">
+                    Custom digital<br><span class="text-accent">solutions.</span>
+                </h2>
+                <p class="section-subtitle animate-on-scroll">
+                    Every service is tailored to meet exactly what your business needs.
+                    No generic packages — only solutions made for you.
+                </p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll" data-delay="0">
+                    <div class="service-number">01</div>
+                    <div class="service-icon"><i data-lucide="layout"></i></div>
+                    <h3 class="service-title">Business Websites</h3>
+                    <p class="service-desc">
+                        Your digital business card. We build websites that convey professionalism,
+                        trust, and the essence of your brand with a design that impresses at first glance.
+                    </p>
+                    <ul class="service-features">
+                        <li><i data-lucide="check"></i> Exclusive & unique design</li>
+                        <li><i data-lucide="check"></i> Google optimized (SEO)</li>
+                        <li><i data-lucide="check"></i> Fully responsive</li>
+                    </ul>
+                </div>
+                <div class="service-card service-card--featured animate-on-scroll" data-delay="100">
+                    <div class="service-badge">Most Requested</div>
+                    <div class="service-number">02</div>
+                    <div class="service-icon"><i data-lucide="shopping-bag"></i></div>
+                    <h3 class="service-title">E-commerce & Stores</h3>
+                    <p class="service-desc">
+                        Online stores that sell. We create smooth, intuitive shopping experiences
+                        that convert visitors into loyal customers, with optimized checkout and premium design.
+                    </p>
+                    <ul class="service-features">
+                        <li><i data-lucide="check"></i> Custom checkout</li>
+                        <li><i data-lucide="check"></i> Complete admin panel</li>
+                        <li><i data-lucide="check"></i> Payment integrations</li>
+                    </ul>
+                </div>
+                <div class="service-card animate-on-scroll" data-delay="200">
+                    <div class="service-number">03</div>
+                    <div class="service-icon"><i data-lucide="smartphone"></i></div>
+                    <h3 class="service-title">Landing Pages</h3>
+                    <p class="service-desc">
+                        High-conversion strategic pages. Every element is positioned to guide
+                        the visitor to the desired action — whether it's buying, booking, or getting in touch.
+                    </p>
+                    <ul class="service-features">
+                        <li><i data-lucide="check"></i> Integrated persuasive copy</li>
+                        <li><i data-lucide="check"></i> Engagement animations</li>
+                        <li><i data-lucide="check"></i> Smart forms</li>
+                    </ul>
+                </div>
+                <div class="service-card animate-on-scroll" data-delay="300">
+                    <div class="service-number">04</div>
+                    <div class="service-icon"><i data-lucide="monitor"></i></div>
+                    <h3 class="service-title">Web Applications</h3>
+                    <p class="service-desc">
+                        Robust web applications to automate your business processes. Dashboards,
+                        admin panels, scheduling systems — all custom-built.
+                    </p>
+                    <ul class="service-features">
+                        <li><i data-lucide="check"></i> Dedicated database</li>
+                        <li><i data-lucide="check"></i> Secure authentication</li>
+                        <li><i data-lucide="check"></i> Intuitive interface</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SHOWCASE / IMAGE GALLERY ========== -->
+    <section class="section showcase" id="showcase">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label animate-on-scroll">Showcase</span>
+                <h2 class="section-title animate-on-scroll">
+                    The standard we<br><span class="text-accent">deliver.</span>
+                </h2>
+                <p class="section-subtitle animate-on-scroll">
+                    Visual inspirations of the quality, refinement, and attention to detail
+                    we apply to every project we develop.
+                </p>
+            </div>
+        </div>
+
+        <!-- Scrolling Image Strip 1 - Left to Right -->
+        <div class="image-strip">
+            <div class="image-strip-track image-strip-track--ltr">
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="Modern Web Design" loading="lazy"></div>
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=600&h=400&fit=crop" alt="Frontend Development" loading="lazy"></div>
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop" alt="Mobile Interface" loading="lazy"></div>
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?w=600&h=400&fit=crop" alt="Premium UI Design" loading="lazy"></div>
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop" alt="Coding Workspace" loading="lazy"></div>
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&h=400&fit=crop" alt="Dashboard Analytics" loading="lazy"></div>
+                <!-- Duplicate for seamless loop -->
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="Modern Web Design" loading="lazy"></div>
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=600&h=400&fit=crop" alt="Frontend Development" loading="lazy"></div>
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop" alt="Mobile Interface" loading="lazy"></div>
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?w=600&h=400&fit=crop" alt="Premium UI Design" loading="lazy"></div>
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop" alt="Coding Workspace" loading="lazy"></div>
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&h=400&fit=crop" alt="Dashboard Analytics" loading="lazy"></div>
+            </div>
+        </div>
+
+        <!-- Scrolling Image Strip 2 - Right to Left -->
+        <div class="image-strip" style="margin-top: 20px;">
+            <div class="image-strip-track image-strip-track--rtl">
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1517292987719-0369a794ec0f?w=600&h=400&fit=crop" alt="E-commerce Design" loading="lazy"></div>
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1555421689-d68471e189f2?w=600&h=400&fit=crop" alt="Creative Agency" loading="lazy"></div>
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=600&h=400&fit=crop" alt="UX Wireframe" loading="lazy"></div>
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=600&h=400&fit=crop" alt="Code Editor" loading="lazy"></div>
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=600&h=400&fit=crop" alt="Website Mockup" loading="lazy"></div>
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1542744094-3a31f272c490?w=600&h=400&fit=crop" alt="Brand Design" loading="lazy"></div>
+                <!-- Duplicate for seamless loop -->
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1517292987719-0369a794ec0f?w=600&h=400&fit=crop" alt="E-commerce Design" loading="lazy"></div>
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1555421689-d68471e189f2?w=600&h=400&fit=crop" alt="Creative Agency" loading="lazy"></div>
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=600&h=400&fit=crop" alt="UX Wireframe" loading="lazy"></div>
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=600&h=400&fit=crop" alt="Code Editor" loading="lazy"></div>
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=600&h=400&fit=crop" alt="Website Mockup" loading="lazy"></div>
+                <div class="strip-image"><img src="https://images.unsplash.com/photo-1542744094-3a31f272c490?w=600&h=400&fit=crop" alt="Brand Design" loading="lazy"></div>
+            </div>
+        </div>
+
+        <!-- Feature Images Grid -->
+        <div class="container" style="margin-top: 80px;">
+            <div class="showcase-grid animate-on-scroll">
+                <div class="showcase-item showcase-item--large">
+                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=600&fit=crop" alt="Premium Web Design" loading="lazy">
+                    <div class="showcase-item-overlay">
+                        <span class="showcase-item-tag">Premium Design</span>
+                        <h3>Interfaces that impress</h3>
+                    </div>
+                </div>
+                <div class="showcase-item">
+                    <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=600&h=500&fit=crop" alt="Clean Code" loading="lazy">
+                    <div class="showcase-item-overlay">
+                        <span class="showcase-item-tag">Engineering</span>
+                        <h3>Flawless code</h3>
+                    </div>
+                </div>
+                <div class="showcase-item">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=500&fit=crop" alt="Analytics Dashboard" loading="lazy">
+                    <div class="showcase-item-overlay">
+                        <span class="showcase-item-tag">Dashboard</span>
+                        <h3>Data that matters</h3>
+                    </div>
+                </div>
+                <div class="showcase-item">
+                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=500&fit=crop" alt="Mobile Responsive" loading="lazy">
+                    <div class="showcase-item-overlay">
+                        <span class="showcase-item-tag">Mobile</span>
+                        <h3>100% Responsive</h3>
+                    </div>
+                </div>
+                <div class="showcase-item showcase-item--large">
+                    <img src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&h=600&fit=crop" alt="UX Design Process" loading="lazy">
+                    <div class="showcase-item-overlay">
+                        <span class="showcase-item-tag">UX Design</span>
+                        <h3>Seamless experience</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROCESS ========== -->
+    <section class="section process" id="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label animate-on-scroll">Process</span>
+                <h2 class="section-title animate-on-scroll">
+                    How your project<br><span class="text-accent">comes to life.</span>
+                </h2>
+                <p class="section-subtitle animate-on-scroll">
+                    A refined and transparent method, from the first contact to launch.
+                    You follow every step.
+                </p>
+            </div>
+            <div class="process-timeline">
+                <div class="process-line"></div>
+                <div class="process-step animate-on-scroll" data-delay="0">
+                    <div class="process-step-number">01</div>
+                    <div class="process-step-content">
+                        <div class="process-icon"><i data-lucide="message-circle"></i></div>
+                        <h3>Discovery & Briefing</h3>
+                        <p>We discuss your business, goals, target audience, and visual references.
+                           We deeply understand what you need before we start.</p>
+                    </div>
+                </div>
+                <div class="process-step animate-on-scroll" data-delay="150">
+                    <div class="process-step-number">02</div>
+                    <div class="process-step-content">
+                        <div class="process-icon"><i data-lucide="palette"></i></div>
+                        <h3>Design & Prototyping</h3>
+                        <p>We create the visual design of your website with interactive prototypes.
+                           You preview and approve each screen before we move to code.</p>
+                    </div>
+                </div>
+                <div class="process-step animate-on-scroll" data-delay="300">
+                    <div class="process-step-number">03</div>
+                    <div class="process-step-content">
+                        <div class="process-icon"><i data-lucide="code-2"></i></div>
+                        <h3>Development</h3>
+                        <p>We code every feature from scratch, with no shortcuts.
+                           Clean, performant code optimized for all devices.</p>
+                    </div>
+                </div>
+                <div class="process-step animate-on-scroll" data-delay="450">
+                    <div class="process-step-number">04</div>
+                    <div class="process-step-content">
+                        <div class="process-icon"><i data-lucide="rocket"></i></div>
+                        <h3>Launch & Support</h3>
+                        <p>We put your website live with full care. We provide ongoing support and
+                           ensure everything works perfectly after launch.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== MARQUEE ========== -->
+    <div class="marquee-section">
+        <div class="marquee">
+            <div class="marquee-content">
+                <span>Exclusive Design</span>
+                <span class="marquee-dot">◆</span>
+                <span>Code From Scratch</span>
+                <span class="marquee-dot">◆</span>
+                <span>Performance</span>
+                <span class="marquee-dot">◆</span>
+                <span>SEO Optimized</span>
+                <span class="marquee-dot">◆</span>
+                <span>Responsive</span>
+                <span class="marquee-dot">◆</span>
+                <span>Security</span>
+                <span class="marquee-dot">◆</span>
+                <span>Premium Support</span>
+                <span class="marquee-dot">◆</span>
+                <span>Exclusive Design</span>
+                <span class="marquee-dot">◆</span>
+                <span>Code From Scratch</span>
+                <span class="marquee-dot">◆</span>
+                <span>Performance</span>
+                <span class="marquee-dot">◆</span>
+                <span>SEO Optimized</span>
+                <span class="marquee-dot">◆</span>
+                <span>Responsive</span>
+                <span class="marquee-dot">◆</span>
+                <span>Security</span>
+                <span class="marquee-dot">◆</span>
+                <span>Premium Support</span>
+                <span class="marquee-dot">◆</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label animate-on-scroll">Testimonials</span>
+                <h2 class="section-title animate-on-scroll">
+                    What our clients<br><span class="text-accent">say about us.</span>
+                </h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card animate-on-scroll" data-delay="0">
+                    <div class="testimonial-stars">
+                        <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Our previous website was a generic template. When DevStudio delivered the new one,
+                        our customers started complimenting it. Online sales grew 340% in the first month."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">MC</div>
+                        <div>
+                            <strong>Marina Costa</strong>
+                            <span>Maison Élégance — CEO</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card animate-on-scroll" data-delay="100">
+                    <div class="testimonial-stars">
+                        <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "The level of detail is incredible. They truly code everything from scratch —
+                        every animation, every interaction. My restaurant has never had such a strong digital presence."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">RF</div>
+                        <div>
+                            <strong>Ricardo Ferreira</strong>
+                            <span>Saveur Gastronomie — Chef Owner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card animate-on-scroll" data-delay="200">
+                    <div class="testimonial-stars">
+                        <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "An unmatched level of professionalism. They delivered ahead of schedule, with a design
+                        that exceeded all expectations. Post-launch support is flawless."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">AS</div>
+                        <div>
+                            <strong>André Santos</strong>
+                            <span>Ferreira & Associates — Partner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA ========== -->
+    <section class="section cta-section">
+        <div class="container">
+            <div class="cta-card animate-on-scroll">
+                <div class="cta-glow"></div>
+                <h2 class="cta-title">Ready to elevate your digital presence?</h2>
+                <p class="cta-text">
+                    Let's turn your vision into a website that impresses, converts, and scales.
+                    Your next big project starts with a conversation.
+                </p>
+                <a href="https://wa.me/5511943639094?text=Hi%21%20I%27m%20interested%20in%20creating%20an%20exclusive%20website%20for%20my%20business." target="_blank" class="btn btn-primary btn-lg">
+                    <span>Start My Project</span>
+                    <i data-lucide="message-circle"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== WHATSAPP CTA ========== -->
+    <section class="section whatsapp-cta" id="contact">
+        <div class="container">
+            <div class="whatsapp-card animate-on-scroll">
+                <div class="whatsapp-glow"></div>
+                <div class="whatsapp-icon-big">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="60" height="60">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                    </svg>
+                </div>
+                <h2 class="whatsapp-title">Let's talk about<br>your <span class="text-accent">project?</span></h2>
+                <p class="whatsapp-text">
+                    Click the button below and reach us directly on WhatsApp.<br>
+                    We'll quickly get back to you with a personalized proposal for your business.
+                </p>
+                <a href="https://wa.me/5511943639094?text=Hi%21%20I%27m%20interested%20in%20creating%20an%20exclusive%20website%20for%20my%20business." target="_blank" class="btn btn-whatsapp btn-lg">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                    </svg>
+                    <span>Chat on WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#hero" class="nav-logo">
+                        <span class="logo-icon">◆</span>
+                        <span class="logo-text">Dev<span class="logo-accent">Studio</span></span>
+                    </a>
+                    <p>Exclusive websites, built from scratch. We elevate your digital presence to the highest standard.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#showcase">Showcase</a></li>
+                        <li><a href="#process">Process</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Business Websites</a></li>
+                        <li><a href="#services">E-commerce</a></li>
+                        <li><a href="#services">Landing Pages</a></li>
+                        <li><a href="#services">Web Applications</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Social</h4>
+                    <ul>
+                        <li><a href="#" target="_blank">Instagram</a></li>
+                        <li><a href="#" target="_blank">LinkedIn</a></li>
+                        <li><a href="#" target="_blank">GitHub</a></li>
+                        <li><a href="#" target="_blank">Behance</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 DevStudio. All rights reserved.</p>
+                <p>Made with <span class="text-accent">♥</span> and handcrafted code.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
